@@ -19,8 +19,11 @@ I hold a Computer Engineering degree (Class of 2026) with coursework in machine 
 | Generative AI | LLM APIs (Groq), prompt engineering, RAG, tool-using agents, LangGraph |
 | Retrieval | Qdrant, Sentence-Transformers, embeddings, semantic search, chunking strategies |
 | Backend | FastAPI, REST API design |
-| Machine Learning | scikit-learn, pandas, NumPy, model evaluation |
-| Engineering | Git, Docker, Jupyter, environment-based configuration |
+| Machine Learning | scikit-learn, pandas, NumPy, XGBoost, model evaluation, cost-sensitive threshold optimisation, SHAP |
+| Data Engineering | Parquet, data validation, feature engineering, chronological train/validation/test splits |
+| MLOps and Monitoring | MLflow experiment tracking, Evidently drift monitoring, model evaluation and testing |
+| Streaming and Feature Stores | Redpanda/Kafka-compatible streaming, Feast |
+| Engineering | Git, Docker, Jupyter, environment-based configuration, pytest |
 
 ## Selected Projects
 
@@ -65,6 +68,24 @@ A full-stack application for querying resume content and comparing it against jo
 - Separate backend and frontend services
 
 **Stack:** Python, FastAPI, Qdrant, Groq, JavaScript
+
+---
+
+### Real-Time Financial Fraud Detection Platform
+[Repository](https://github.com/hrshvrdhn26/real-time-fraud-detection)
+
+An end-to-end machine learning platform that detects potentially fraudulent financial transactions using the PaySim dataset. It combines chronological model evaluation, cost-sensitive decision thresholds, model explainability and monitoring with API and streaming components.
+
+- Processed and validated 6.36 million transactions, with feature engineering and chronological train/validation/test splits
+- Trained and evaluated an XGBoost classifier using precision-recall AUC, ROC-AUC, precision, recall and F1
+- Optimised the fraud decision threshold against illustrative false-positive and false-negative costs
+- Used MLflow for experiment tracking and SHAP for feature importance and model explanations
+- Added Feast feature-store integration, FastAPI transaction scoring, and Redpanda/Kafka-compatible streaming components
+- Included Evidently drift reporting, a Streamlit monitoring dashboard, and automated tests
+
+**Test-set results:** PR-AUC 0.9627, ROC-AUC 0.9994, precision 0.6335, recall 0.9928, F1 0.7735.
+
+**Stack:** Python, pandas, NumPy, Parquet, scikit-learn, XGBoost, MLflow, SHAP, Feast, FastAPI, Redpanda, Evidently, Streamlit, pytest
 
 ## Currently Working On
 

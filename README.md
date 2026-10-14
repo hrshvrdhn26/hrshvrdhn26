@@ -43,6 +43,8 @@ An end-to-end machine learning platform that detects potentially fraudulent fina
 
 **Stack:** Python, pandas, NumPy, Parquet, scikit-learn, XGBoost, MLflow, SHAP, Feast, FastAPI, Redpanda, Evidently, Streamlit, pytest
 
+---
+
 ### DSA Video Retrieval System
 [Repository](https://github.com/hrshvrdhn26/DSA-RAG-System)
 

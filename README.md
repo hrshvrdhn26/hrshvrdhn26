@@ -1,15 +1,15 @@
 # Harshvardhan Galande
 
-**AI/ML Engineer — Generative AI, Retrieval-Augmented Generation, LLM Applications**
+**AI/ML Engineer | Generative AI, LLM Applications, RAG & Applied Machine Learning**
 Pune, India &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/harshvardhangalande) &nbsp;|&nbsp; [GitHub](https://github.com/hrshvrdhn26)
 
 ---
 
 ## About
 
-I build retrieval-augmented and agentic LLM applications in Python. My work centres on three things: retrieval quality, stateful agent workflows, and serving models through clean, well-structured API backends.
+I build end-to-end AI/ML applications that turn machine learning and LLM capabilities into practical, usable systems. My projects span retrieval-augmented generation (RAG), stateful multi-agent workflows, and predictive machine learning—including a real-time financial fraud detection platform built with XGBoost, FastAPI, MLflow, SHAP, and streaming components.
 
-I hold a Computer Engineering degree (Class of 2026) with coursework in machine learning, deep learning and high-performance computing, and I am looking for an engineering role where I can ship AI features to production.
+I focus on the engineering behind these systems: preparing and validating data, evaluating models, improving retrieval and decision thresholds, designing APIs, and adding explainability and monitoring. I hold a Computer Engineering degree (Class of 2026) and am seeking an opportunity to contribute to production-oriented AI/ML solutions as an engineer.
 
 ## Technical Focus
 
